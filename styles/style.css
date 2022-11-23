@@ -128,6 +128,7 @@
   justify-content: space-between;
   row-gap: 40px;
   display: flex;
+  margin-top: 68px;
 }
 
 .card {
@@ -370,7 +371,7 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
-  max-height: 154px;
+  max-width: 154px;
   position: relative;
 }
 
@@ -408,21 +409,19 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   padding: 60px 102px 60px 80px;
+  color: #fff;
+  min-height: 224px;
 }
 
 .footer__columns {
   display: flex;
-  justify-content: space-between;
-  min-height: 224px;
 }
 
 .footer__column_content_hours {
-  max-height: 84px;
   margin-left: auto;
 }
 
 .footer__column_content_social {
-  max-height: 84px;
   margin-left: 100px;
 }
 
@@ -435,44 +434,23 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  font-family: Helvetica Neue, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  margin-top: 0;
 }
 
 .footer__list-item {
-  color: #fff;
-  padding-bottom: 16px;
-  font-family: Helvetica Neue, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  align-items: baseline;
-}
-
-.footer__paragraph {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
 }
 
 .footer__list-item:last-of-type {
-  padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
 .footer__column-heading {
-  color: #fff;
-  margin-top: 0;
-  padding-bottom: 20px;
-  margin-bottom: 0;
-  font-family: Helvetica Neue, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
   color: white;
   font-size: 16px;
   line-height: 20px;
@@ -490,9 +468,5 @@
 }
 
 .footer__copyright {
-  color: #fff;
-  margin-bottom: 0;
-  font-family: Helvetica Neue, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  margin: 108px 0 0;
 }
